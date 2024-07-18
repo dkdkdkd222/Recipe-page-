@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body {
+  background-color: rgb(244, 231, 216);
+height: 100%;
+margin-top: 10%;
+margin-bottom: 10%;
+width: 900px;
+}
+
+.recipe-title {
+  margin-bottom: 5px;
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 400;
+}
+
+.recipe-introduction {
+  width: 550px;
+  font-family: 'Outfit-ExtraBold';
+  font-weight: 400;
+  
+}
+
+.container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 10px;
+ margin-bottom: 90px;
+ padding-top: 30px;
+ padding-left: 30px;
+ padding-right: 30px;
+width: 600px;
+}
+
+body, .container {
+  margin-left: 180px;
+margin-right: 350px;
+}
+
+.preparation-container {
+  padding: 30px;
+  padding-top: 2px;
+  background-color: #f9f5f9;
+  border-radius: 15px;
+}
+
+.preparation-title {
+  color: purple;
+  font-weight: 600;
+  font-family: 'Outfit'
+}
+
+.preparation-components {
+  margin-top: -10px;
+  color: grey;
+   font-weight: 400;
+  font-family: 'Outfit'
+}
+
+.ingredient-title {
+  color: rgb(165, 96, 44);
+  font-family: 'Young Serif';
+  font-weight: 400;
+}
+.ingredients {
+  font-family: 'Outfit';
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 25px;
+  color: grey;
+}
+
+.instruction-title {
+  font-family: 'Young Serif';
+  font-weight: 400;
+  color: rgb(165, 96, 44);
+}
+
+.instructions {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 20px;
+  font-family: 'Outfit';
+  color: grey;
+  font-weight: 400;
+}
+
+.number-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -25px;
+}
+.number-list li::marker{
+  color: rgb(165, 96, 44);
+  font-weight: bold;
+}
+
+.nutrition-title {
+  color: rgb(165, 96, 44);
+  font-family: 'Young Serif';
+  font-weight: 400;
+
+}
+
+.nutrition-statement {
+  margin-top: 3px;
+  font-family: 'Outfit';
+  font-weight: 600;
+  color: grey;
+}
+
+.divider{
+border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.word-space {
+  font-family: 'Outfit';
+  font-weight: 600;
+  color: grey;
+}
+
+.word-space + .word-space1{
+  margin-left: 150px;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+
+.word-space1 {
+  font-family: 'Outfit';
+  color: rgb(165, 96, 44);
+  font-weight: bold;
+}
